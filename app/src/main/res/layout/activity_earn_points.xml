@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".TakeBikeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/curiouswheelslogo"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/trueBlack"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Start biking, Earn points!"/>
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/trueBlack"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:text="Each member needs to activate the CuriousWheels app ('Start CuriousWheels' button) whenever s/he starts cycling. "/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/trueBlack"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:text="The app records his/her movement and translates the tracked kilometres into points. For instance, 1km = 1 point."/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/trueBlack"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:text="You can earn as many points by covering that many kilometers per ride. "/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/trueBlack"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:text="Therefore, the more points you collect, the more you earn in terms of discounts or vouchers or rewards."/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/trueBlack"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:text="Start cycling!!"/>
+</LinearLayout>
+

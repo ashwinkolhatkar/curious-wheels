@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Curious Wheels</string>
+    
+    <string name="takebike_writeup">
+        We aim to promote a healthier lifestyle by encouraging physical activity and a more environmentally sustainable means of transport, the two-wheeled wonder - The Bicycle!!
+        Any adult with a smartphone that has a GPS function is eligible to participate and become a member.
+        Track your rides and get rewarded for improving your city.
+    </string>
+</resources>

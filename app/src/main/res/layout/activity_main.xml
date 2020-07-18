@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/backgroundcolor">
+    
+    <LinearLayout
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/takebike"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:foreground="?selectableItemBackground"
+            android:layout_height="190dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/mountaincycle"/>
+            <TextView android:text="Take out your bike"
+                android:textSize="30dp"
+                android:textColor="@color/yello"
+                android:shadowColor="@color/trueBlack"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/earnpoints"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:foreground="?selectableItemBackground"
+            android:background="@color/yello">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/earnpoints"/>
+
+            <TextView android:text="Earn Points"
+                android:textSize="30dp"
+                android:textColor="@color/trueBlack"
+                android:outlineAmbientShadowColor="@color/yello"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/redeempoints"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:foreground="?selectableItemBackground"
+            android:background="@color/yello">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/redeempoints"/>
+
+            <TextView android:text="Redeem your Reward Points"
+                android:layout_gravity="center"
+                android:textColor="@color/trueBlack"
+                android:outlineAmbientShadowColor="@color/yello"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
